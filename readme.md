@@ -1,15 +1,33 @@
-# Util fn for set deep object value by giving the following 5 arguments: object, path1, path2, path3, value
+# SetIn - util function
 
-# How to run ?
+An utility function for setting deep object value by giving the following 5 arguments: object, path1, path2, path3, value
 
-## npm install
+## Technologies
 
-## npm run start
+Project is created with:
 
-## or
+- node
+- nodemon
+- mocha
+- chai
 
-## npm run start:dev
+## Setup
 
-# How to test ?
+To run this project, do the following (node required):
 
-## npm run test
+```
+$ npm install
+$ npm run start
+```
+
+## Test
+
+```
+$ npm run test
+```
+
+## Local dev
+
+```
+$ npm run start:dev
+```
