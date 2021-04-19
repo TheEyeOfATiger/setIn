@@ -1,0 +1,18 @@
+{
+  "name": "setin",
+  "version": "1.0.0",
+  "description": "util fn for merge or add value to certain deep path of the initial object",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "start:dev": "nodemon example1/example1.js",
+    "start": "node example1/example1.js"
+  },
+  "author": "Lazar Samuel",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "nodemon": "^2.0.7"
+  }
+}
